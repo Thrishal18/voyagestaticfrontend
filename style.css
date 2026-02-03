@@ -1,0 +1,192 @@
+`/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 7%;
+    padding-left: 2%;
+}
+.menu-right {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+
+}
+.menu-right li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-right a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul {
+    list-style: none;
+}
+
+#hero {
+    background-size:cover;
+    text-align: center;
+    color: #fff;
+    padding: 240px 0;
+    margin: 0;
+}
+
+.cta-button {
+    background-color: #e8a90b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* Styles for the download buttons */
+#download-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.app-store-button,
+.play-store-button {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px ;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+}
+
+.app-store-button img,
+.play-store-button img {
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+}
+#aboutflex{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    font-family: Tahoma, sans-serif;
+}
+#aboutimg{
+    margin-top: 2.5%;
+    margin-left: 3%;
+    border-radius: 5%;
+}
+#aboutimg img{
+    border-radius: 4%;
+}
+#about{
+    text-align: left;
+    margin-top: 4%;
+}
+#howFlex{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    font-family: Tahoma, sans-serif;
+}
+#how-it-works{
+    text-align: right;
+    margin-top: 12%;
+}
+#howImg img{
+    border-radius: 4%;
+    border-style: solid;
+}
+#howImg{
+    margin-top: 4%;
+    margin-right: 40%;
+}
+#featuresFlex{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    font-family: Tahoma, sans-serif;
+}
+#features{
+    text-align: left;
+    margin-top: 12%;
+}
+
+#slideshow {
+    margin-top: 4%;
+    margin-left: 45%;
+}
+#slideshow img{
+    border-radius: 4%;
+    border-style: solid;
+}
+
+#download {
+    padding: 50px 0;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info,
+.address {
+    text-align: left;
+    margin: 10px;
+}
+
+.contact-info h3,
+.address h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+.gov-logos {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.gov-logos a {
+    margin: 0 10px;
+}
+
+.gov-logos img {
+    height: 50px;
+}
+
